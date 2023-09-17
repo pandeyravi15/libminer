@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/pandeyravi15/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pandeyravi15/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to …
@@ -25,22 +27,22 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(libminer)
 lib_summary()
-#>                                                                                        Library
-#> 1                         /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
-#> 2 /private/var/folders/l_/j1p3t8ms3vsf4g6n9wcl2450d_46rg/T/Rtmp8r0PeT/temp_libpath22085a015093
-#> 3                                                   /Users/pandera/Library/R/arm64/4.2/library
+#>                                                                                       Library
+#> 1                        /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
+#> 2 /private/var/folders/l_/j1p3t8ms3vsf4g6n9wcl2450d_46rg/T/Rtmp8r0PeT/temp_libpath2208bc49aa3
+#> 3                                                  /Users/pandera/Library/R/arm64/4.2/library
 #>   n_packages
 #> 1         29
 #> 2          1
 #> 3        482
 lib_summary(sizes = TRUE)
-#>                                                                                        Library
-#> 1                         /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
-#> 2 /private/var/folders/l_/j1p3t8ms3vsf4g6n9wcl2450d_46rg/T/Rtmp8r0PeT/temp_libpath22085a015093
-#> 3                                                   /Users/pandera/Library/R/arm64/4.2/library
+#>                                                                                       Library
+#> 1                        /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
+#> 2 /private/var/folders/l_/j1p3t8ms3vsf4g6n9wcl2450d_46rg/T/Rtmp8r0PeT/temp_libpath2208bc49aa3
+#> 3                                                  /Users/pandera/Library/R/arm64/4.2/library
 #>   n_packages   lib_size
 #> 1         29   66559407
-#> 2          1      14210
+#> 2          1      14208
 #> 3        482 4455233205
 ```
 
